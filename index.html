@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Полина Макарова — методист с ИИ</title>
+  <meta name="description" content="Проектирую интерактивные уроки, тренажёры программ и обучающие игры. Использую ИИ для разработки и проверки учебных материалов.">
+  <meta property="og:title" content="Полина Макарова — методист с ИИ">
+  <meta property="og:description" content="Методическое портфолио: интерактивные уроки, симуляторы программ и учебные игры.">
+  <meta property="og:image" content="media/smetchik.jpg">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#">Полина Макарова</a>
+    <nav>
+      <a href="#work">Проекты</a>
+      <a href="#how">Методика и ИИ</a>
+      <a class="btn btn-small" href="#contact">Написать</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Портфолио методиста</p>
+        <h1>Методист с&nbsp;ИИ</h1>
+        <p class="lead">Проектирую обучение, в котором можно попробовать рабочую задачу. Превращаю материалы эксперта в уроки, симуляторы программ и учебные игры. С помощью ИИ собираю прототипы и довожу их до готового модуля.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#work">Посмотреть учебные кейсы</a>
+          <a class="btn btn-ghost" href="#contact">Связаться со мной</a>
+        </div>
+        <ul class="stats" id="stats"></ul>
+      </div>
+      <div class="hero-reel" id="reel" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-head">
+        <h2>Учебные кейсы и инструменты</h2>
+        <div class="filters" id="filters" role="tablist"></div>
+      </div>
+      <div class="grid" id="grid"></div>
+      <p class="note">В роликах клиентских тренажёров тексты размыты.</p>
+    </section>
+
+    <section class="section" id="how">
+      <div class="section-head"><h2>Как я проектирую обучение с ИИ</h2></div>
+      <ol class="steps">
+        <li>
+          <span class="step-n">01</span>
+          <h3>Определяю учебный результат</h3>
+          <p>Разбираю задачу и материалы эксперта. Формулирую, что ученик должен уметь после урока и каким заданием это можно проверить.</p>
+        </li>
+        <li>
+          <span class="step-n">02</span>
+          <h3>Проектирую практику</h3>
+          <p>Выстраиваю маршрут от примера к самостоятельной задаче. Для тренажёра описываю шаги, условия проверки, типичные ошибки и подсказки.</p>
+        </li>
+        <li>
+          <span class="step-n">03</span>
+          <h3>Собираю прототип с ИИ</h3>
+          <p>Задаю ИИ сценарий, исходные материалы и критерии приёмки. Собираю урок на готовых компонентах или делаю интерактив под конкретную задачу.</p>
+        </li>
+        <li>
+          <span class="step-n">04</span>
+          <h3>Проверяю и готовлю к запуску</h3>
+          <p>Сверяю материалы с источниками и прохожу задания как ученик. Проверяю правильные и ошибочные действия, подсказки и сохранение прогресса. Для LMS готовлю пакет SCORM.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-head"><h2>С чем могу помочь команде обучения</h2></div>
+      <ul class="services">
+        <li><b>Программа курса и сценарий урока</b><span>Сформулировать результаты обучения, разложить материал по темам и спроектировать практику и проверку.</span></li>
+        <li><b>Интерактивный урок</b><span>Превратить текст, презентацию или регламент в лонгрид с примерами и заданиями с обратной связью.</span></li>
+        <li><b>Тренажёр или учебная игра</b><span>Воспроизвести рабочую ситуацию или интерфейс программы, чтобы ученик мог отработать действия прямо в браузере.</span></li>
+        <li><b>Шаблоны и инструменты для методистов</b><span>Настроить повторяемую сборку уроков с ИИ, общими компонентами и правилами проверки.</span></li>
+      </ul>
+    </section>
+
+    <section class="section" id="games">
+      <div class="section-head"><h2>Игры вне учебных проектов</h2></div>
+      <div class="grid" id="game-grid"></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Открыта к работе методистом</h2>
+      <p class="lead">Рассматриваю работу в команде, которая разрабатывает курсы и использует ИИ в учебных проектах. Свяжитесь со мной в Telegram или по почте.</p>
+      <div class="contact-links">
+        <a class="btn" href="https://t.me/magisch_waage" target="_blank" rel="noopener">Telegram @magisch_waage</a>
+        <a class="btn btn-ghost" href="mailto:polly.s.makarova@gmail.com">polly.s.makarova@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">© <span id="year"></span> Полина Макарова</footer>
+
+  <dialog class="case" id="case">
+    <button class="close" data-close aria-label="Закрыть">×</button>
+    <div class="case-body" id="case-body"></div>
+  </dialog>
+
+  <div class="player" id="player" hidden>
+    <div class="player-bar">
+      <span id="player-title"></span>
+      <a id="player-newtab" target="_blank" rel="noopener">Открыть в новой вкладке ↗</a>
+      <button class="close" id="player-close" aria-label="Закрыть">×</button>
+    </div>
+    <div class="player-frame" id="player-frame"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
